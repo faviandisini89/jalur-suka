@@ -15,7 +15,7 @@ export const FACULTIES: Faculty[] = [
   { id: "fupi", code: "FUPI", name: "Fakultas Ushuluddin dan Pemikiran Islam", color: "fupi", url: "http://ushuluddin.uin-suka.ac.id", about: "Dibuka bersamaan dengan peresmian IAIN pada 24 Agustus 1960, berfokus pada sumber pokok Islam dan pemikiran." },
   { id: "fst", code: "FST", name: "Fakultas Sains dan Teknologi", color: "fst", url: "http://saintek.uin-suka.ac.id", about: "Mulai menerima mahasiswa pada tahun ajaran 2004/2005, memadukan sains dan teknologi dengan keislaman." },
   { id: "fishum", code: "FISHUM", name: "Fakultas Ilmu Sosial dan Humaniora", color: "fishum", url: "http://isoshum.uin-suka.ac.id", about: "Memadukan studi keislaman, ilmu sosial, dan humaniora dalam pendidikan dan penelitian." },
-  { id: "febi", code: "FEBI", name: "Fakultas Ekonomi dan Bisnis Islam", color: "febi", about: "Rumpun ekonomi, keuangan, dan akuntansi berbasis prinsip syariah." },
+  { id: "febi", code: "FEBI", name: "Fakultas Ekonomi dan Bisnis Islam", color: "febi", url: "http://febi.uin-suka.ac.id", about: "Rumpun ekonomi, keuangan, dan akuntansi berbasis prinsip syariah." },
 ];
 
 export const facultyById = (id: string) => FACULTIES.find((f) => f.id === id)!;
